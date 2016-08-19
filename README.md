@@ -1,3 +1,5 @@
+# Status
+[![](https://images.microbadger.com/badges/image/hans00/uptime.svg)](https://microbadger.com/images/hans00/uptime "Status")
 # Run
 ```
 docker run -d -p 8082:8082 \
