@@ -25,6 +25,7 @@ plugins:
   - ./plugins/console
   - ./plugins/patternMatcher
   - ./plugins/httpOptions
+  MORE_PLUGINS
   # - ./plugins/email
   # - ./plugins/basicAuth
 
@@ -46,9 +47,9 @@ email:
   # The email plugin also uses the main `url` param for hyperlinks in the sent emails
 
 basicAuth:
-  username:    admin
-  password:    password
-verbose: true # only used in dev
+  username:    'USERNAME'
+  password:    'PASSWORD'
+verbose: DEBUG # only used in dev
 
 webPageTest:
   server: 'http://www.webpagetest.org'
