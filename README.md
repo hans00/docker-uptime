@@ -9,7 +9,7 @@ docker run -d -p 8082:8082 \
     -e MONGODB_DATABASE='uptime' \
     --name uptime hans00/uptime
 ```
-# Env
+# Enviroments ( Only apply first run )
 - MongoDB
     - MONGODB_HOST_PORT
     - MONGODB_DATABASE
@@ -21,3 +21,8 @@ docker run -d -p 8082:8082 \
     - EMAIL_PASSWORD
     - EMAIL_FROM
     - EMAIL_TO
+- Auth
+    - AUTH_USERNME
+    - AUTH_PASSWORD
+- Verbose
+    - DEBUG  ( if Y will be true )
